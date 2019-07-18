@@ -4,6 +4,8 @@ const ui = new UI()
 
 search_object = document.getElementById('custom-form')
 
+$('#center').hide()
+
 
 submit_button = document.getElementById('submit')
 submit_button.addEventListener('click', (e)=>{

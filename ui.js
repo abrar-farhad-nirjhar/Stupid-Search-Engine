@@ -49,5 +49,7 @@ class UI{
 
         this.area.innerHTML = this.display
         this.display = ''
+
+        $('#center').show(1000)
     }
 }
