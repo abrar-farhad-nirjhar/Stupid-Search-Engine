@@ -41,3 +41,22 @@ body{
     font-family: 'Fredericka the Great', cursive;
     font-size: 80px;
 }
+
+#left_icon{
+    width: 100px;
+    height: 100px;
+    opacity: .6;
+    margin-top:60%;
+    margin-left: 30%;
+    position: absolute;
+}
+
+#right_icon{
+    width: 100px;
+    height: 100px;
+    opacity: .6;
+    margin-top: 60%;
+    margin-right: 30%;
+    position: absolute;
+
+}
