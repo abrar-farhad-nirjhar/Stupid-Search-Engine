@@ -29,6 +29,9 @@ submit_button.addEventListener('click', (e)=>{
             console.log(data.data.queries.previousPage[0].startIndex)
             prevstartIndex = data.data.queries.previousPage[0].startIndex
         }
+        else{
+            prevstartIndex = 1
+        }
         ui.AddList(data.data.items)
 
         left_icon.addEventListener('click', (e) => {
@@ -38,6 +41,9 @@ submit_button.addEventListener('click', (e)=>{
                 if (nextstartIndex > 11) {
                     console.log(data.data.queries.previousPage[0].startIndex)
                     prevstartIndex = data.data.queries.previousPage[0].startIndex
+                }
+                else{
+                    prevstartIndex = 1
                 }
                 ui.AddList(data.data.items)
 
@@ -51,6 +57,9 @@ submit_button.addEventListener('click', (e)=>{
                 if (nextstartIndex > 11) {
                     console.log(data.data.queries.previousPage[0].startIndex)
                     prevstartIndex = data.data.queries.previousPage[0].startIndex
+                }
+                else{
+                    prevstartIndex = 1
                 }
                 ui.AddList(data.data.items)
 
