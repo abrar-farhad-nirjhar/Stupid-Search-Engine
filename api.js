@@ -1,6 +1,6 @@
 class API{
     constructor(){
-        this.api = "https://www.googleapis.com/customsearch/v1?key=AIzaSyCqGOv1GxJiBGqK9sn8IOihoEB5aj3dQq0&cx=016294408253783749734:hgwvc0bx9zq&q="
+        this.api = "https://www.googleapis.com/customsearch/v1?key=AIzaSyAlk5vbg2rE1dBpubQKa21uxNyMuk1LGJE&cx=016294408253783749734:hgwvc0bx9zq&q="
     }
 
     async getData(query){
